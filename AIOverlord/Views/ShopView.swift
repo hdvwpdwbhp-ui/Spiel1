@@ -61,7 +61,9 @@ struct ShopView: View {
         case PurchaseService.ProductID.tokensWhale: gameVM.state.tokens += 15000
         default: break
         }
-        gameVM.state.firstPurchaseMade = true
-        FirebaseService.shared.logEvent("first_purchase")
+        if !gameVM.state.firstPurchaseMade {
+            gameVM.state.firstPurchaseMade = true
+            FirebaseService.shared.logEvent("first_purchase")
+        }
     }
 }
