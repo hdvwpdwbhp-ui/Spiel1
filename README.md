@@ -1,5 +1,31 @@
 # AI Overlord – Fertige Dateien & Xcode-Setup
 
+---
+
+## ⬇️ DOWNLOAD – Alle Dateien herunterladen
+
+### Option 1: Alles als ZIP herunterladen (einfachste Methode)
+
+👉 **[Klicke hier um alle Dateien als ZIP herunterzuladen](https://github.com/hdvwpdwbhp-ui/Spiel1/archive/refs/heads/copilot/generate-ios-swiftui-app-structure.zip)**
+
+Nach dem Download: ZIP entpacken → im Ordner `AIOverlord/` findest du alle 32 Swift-Dateien, fertig zum Kopieren in Xcode.
+
+### Option 2: Einzelne Dateien auf GitHub anschauen/herunterladen
+
+👉 **[Direkt zum AIOverlord-Ordner auf GitHub](https://github.com/hdvwpdwbhp-ui/Spiel1/tree/copilot/generate-ios-swiftui-app-structure/AIOverlord)**
+
+Dort kannst du jede Datei einzeln öffnen, den Code kopieren, oder oben rechts auf "Raw" klicken und speichern.
+
+### Option 3: Repository klonen (für Entwickler)
+
+```bash
+git clone https://github.com/hdvwpdwbhp-ui/Spiel1.git
+cd Spiel1
+git checkout copilot/generate-ios-swiftui-app-structure
+```
+
+---
+
 ## Wo sind die fertigen Dateien?
 
 Alle fertigen Swift-Dateien liegen im Ordner **`AIOverlord/`** in diesem Repository.
@@ -58,6 +84,19 @@ AIOverlord/
 │
 └── Resources/                       ← (Platzhalter für Localizable.strings)
 ```
+
+### Direkt-Links zu den Ordnern auf GitHub
+
+| Ordner | Link | Dateien |
+|--------|------|---------|
+| 📁 **AIOverlord** (Hauptordner) | [Öffnen](https://github.com/hdvwpdwbhp-ui/Spiel1/tree/copilot/generate-ios-swiftui-app-structure/AIOverlord) | AIOverlordApp.swift |
+| 📁 **Utilities** | [Öffnen](https://github.com/hdvwpdwbhp-ui/Spiel1/tree/copilot/generate-ios-swiftui-app-structure/AIOverlord/Utilities) | 5 Dateien |
+| 📁 **Models** | [Öffnen](https://github.com/hdvwpdwbhp-ui/Spiel1/tree/copilot/generate-ios-swiftui-app-structure/AIOverlord/Models) | 8 Dateien |
+| 📁 **Services** | [Öffnen](https://github.com/hdvwpdwbhp-ui/Spiel1/tree/copilot/generate-ios-swiftui-app-structure/AIOverlord/Services) | 8 Dateien |
+| 📁 **ViewModels** | [Öffnen](https://github.com/hdvwpdwbhp-ui/Spiel1/tree/copilot/generate-ios-swiftui-app-structure/AIOverlord/ViewModels) | 5 Dateien |
+| 📁 **Views** | [Öffnen](https://github.com/hdvwpdwbhp-ui/Spiel1/tree/copilot/generate-ios-swiftui-app-structure/AIOverlord/Views) | 12 Dateien |
+
+---
 
 ## Wie bekomme ich das in Xcode?
 
